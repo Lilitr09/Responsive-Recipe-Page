@@ -26,18 +26,27 @@ body {
     width: 90%;
 }
 
-
 img {
     object-fit: fill;
 
 }
-h1, h2 {
+#recipe-name {
     font-family: "Young-Serif";
+    font-size: 3rem;
 }
 .title {
     color: hsl(14, 45%, 36%);
+    padding-left: 10px;
+    font-family: "Young-Serif";
+    font-size: 2.4rem;
 }
-
+ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+.d-flex li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
 
 /* Other */
 .text {
@@ -51,6 +60,7 @@ h1, h2 {
     font-size: 1.4rem;
     color: hsl(332, 51%, 32%);
     font-weight: bold;
+    padding-left: 10px;
 }
 .information {
     background-color: hsl(330, 100%, 98%);
@@ -58,4 +68,7 @@ h1, h2 {
     padding: 30px;
     display: flex;
     flex-direction: column;
+}
+.calories {
+    color: hsl(14, 45%, 36%);
 }
