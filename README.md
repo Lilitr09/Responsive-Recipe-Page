@@ -1,5 +1,5 @@
 # Responsive-Recipe-Page
-Responsive Recipe Page using HTML  CSS and BOOTSTRAP ## (in progress)
+Responsive Recipe Page using HTML  CSS and BOOTSTRAP  **(in progress)**
 
 # Frontend Mentor - Recipe page solution
 
