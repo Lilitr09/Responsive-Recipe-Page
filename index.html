@@ -19,11 +19,10 @@
 
 </head>
 <body>
-    <main>
         <!-- Header -->
-        <header class="container mb-5">
-            <img src="./assets/images/image-omelette.jpeg" alt="Omellette Image" role="presentation" class="img-fluid rounded">
-        </header>
+        <div class="container-fluid mb-4 head">
+            <img src="./assets/images/image-omelette.jpeg" alt="Omellette Image" role="presentation" class="image-header img-fluid w-100 rounded ">
+        </div>
 
         <!-- Overview Section -->
         <section class="overview-section">
@@ -42,7 +41,7 @@
         </section>
 
         <!-- Ingredients Section -->
-        <section class="conatiner mt-5 mb-5">
+        <section class="container mt-5 mb-5">
             <h2 class="title">Ingredients</h2>
             <ul class="d-flex flex-column justify-content-around">
                 <li class="text ps-4">2-3 large eggs</li>
@@ -73,36 +72,35 @@
             <h2 class="title">Nutrition</h2>
             <p class="text">The table below shows nutritional values per serving without the additional fillings.</p>
 
-            <table class="text table">
-                <tr>
-                    <td>Calories</td>
-                    <td class="calories">277kcal</td>
-                </tr>
-                <tr>
-                    <td>Carbs</td>
-                    <td class="calories">0g</td>
-                </tr>
-                <tr>
-                    <td>Protein</td>
-                    <td class="calories">20g</td>
-                </tr>
-                <tr>
-                    <td>Fat</td>
-                    <td class="calories">22g</td>
-                </tr>
-            </table>
+            <div class="table-responsive mb-5">
+                <table class="table">
+                    <tr>
+                        <td class="text-custom-stone">Calories</td>
+                        <td class="text-custom">277kcal</td>
+                    </tr>
+                    <tr>
+                        <td class="text-custom-stone">Carbs</td>
+                        <td class="text-custom">0g</td>
+                    </tr>
+                    <tr>
+                        <td class="text-custom-stone">Protein</td>
+                        <td class="text-custom">20g</td>
+                    </tr>
+                    <tr>
+                        <td class="text-custom-stone">Fat</td>
+                        <td class="text-custom">22g</td>
+                    </tr>
+                </table>
+            </div>
+            
         </section>
-    </main>
     
     <!-- Footer -->
-    <!--<footer>
-        <div class="attribution">
+    <footer>
+        <div class="attribution mb-3">
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-            Coded by <a href="#">Liliana Torres</a>.
+            Coded by <a href="https://github.com/Lilitr09">Liliana Torres</a>
         </div>
-    </footer> -->
-    
-
-    
+    </footer> 
 </body>
 </html>

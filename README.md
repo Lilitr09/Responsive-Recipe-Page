@@ -1,9 +1,9 @@
 # Responsive-Recipe-Page
-Responsive Recipe Page using HTML  CSS and BOOTSTRAP  **(in progress)**
+Responsive Recipe Page using HTML, CSS and Bootstrap  **(in progress)**
 
 # Frontend Mentor - Recipe page solution
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).
 
 ## Table of contents
 

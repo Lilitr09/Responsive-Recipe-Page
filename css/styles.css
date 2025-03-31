@@ -30,6 +30,43 @@ img {
     object-fit: fill;
 
 }
+/* Media query */
+@media (max-width: 756px) {
+    html {
+        background-color: white;
+        padding: 0;
+    }
+    body {
+        border-radius: 0;
+        width: 100%;
+        max-width: 100%;
+        min-height: 100vh;
+        padding: 0;
+    }
+    html, body {
+        transition: all 0.3s ease;
+    }
+    .container-fluid {
+        padding: 0 !important;
+    }
+    .container {
+        padding: 20px;
+    }
+    .overview-section {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 0;
+    }
+    .head {
+        margin: 0;
+    }
+    .image-header {
+        width: 100vw;
+        max-width: none;
+        border-radius: 0;
+    }
+}
+/* Other */
 #recipe-name {
     font-family: "Young-Serif";
     font-size: 3rem;
@@ -48,7 +85,6 @@ ul li::marker {
     font-weight: bold;
 }
 
-/* Other */
 .text {
     font-family: "Outfit";
     font-size: 1.2rem;
@@ -69,6 +105,19 @@ ul li::marker {
     display: flex;
     flex-direction: column;
 }
-.calories {
-    color: hsl(14, 45%, 36%);
+.text-custom {
+    color: hsl(14, 45%, 36%) !important;
+    font-weight: bold;
+    font-family: "Outfit";
+    font-size: 1.2rem;
+}
+.text-custom-stone {
+    color: hsl(30, 10%, 34%) !important;
+    font-family: "Outfit";
+    font-size: 1.2rem;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    font-family: "Outfit";
 }
